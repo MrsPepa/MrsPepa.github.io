@@ -5,14 +5,14 @@
   box-sizing: border-box;
 }
 body {
-background: rgba(54,115,113,1);
-background: -moz-linear-gradient(top, rgba(54,115,113,1) 0%, rgba(54,115,113,1) 42%, rgba(58,148,115,1) 93%, rgba(58,148,115,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(54,115,113,1)), color-stop(42%, rgba(54,115,113,1)), color-stop(93%, rgba(58,148,115,1)), color-stop(100%, rgba(58,148,115,1)));
-background: -webkit-linear-gradient(top, rgba(54,115,113,1) 0%, rgba(54,115,113,1) 42%, rgba(58,148,115,1) 93%, rgba(58,148,115,1) 100%);
-background: -o-linear-gradient(top, rgba(54,115,113,1) 0%, rgba(54,115,113,1) 42%, rgba(58,148,115,1) 93%, rgba(58,148,115,1) 100%);
-background: -ms-linear-gradient(top, rgba(54,115,113,1) 0%, rgba(54,115,113,1) 42%, rgba(58,148,115,1) 93%, rgba(58,148,115,1) 100%);
-background: linear-gradient(to bottom, rgba(54,115,113,1) 0%, rgba(54,115,113,1) 42%, rgba(58,148,115,1) 93%, rgba(58,148,115,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#367371', endColorstr='#3a9473', GradientType=0 );
+background: rgba(89,79,79,1);
+background: -moz-linear-gradient(top, rgba(89,79,79,1) 0%, rgba(89,79,79,1) 9%, rgba(84,123,130,1) 51%, rgba(58,148,115,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(89,79,79,1)), color-stop(9%, rgba(89,79,79,1)), color-stop(51%, rgba(84,123,130,1)), color-stop(100%, rgba(58,148,115,1)));
+background: -webkit-linear-gradient(top, rgba(89,79,79,1) 0%, rgba(89,79,79,1) 9%, rgba(84,123,130,1) 51%, rgba(58,148,115,1) 100%);
+background: -o-linear-gradient(top, rgba(89,79,79,1) 0%, rgba(89,79,79,1) 9%, rgba(84,123,130,1) 51%, rgba(58,148,115,1) 100%);
+background: -ms-linear-gradient(top, rgba(89,79,79,1) 0%, rgba(89,79,79,1) 9%, rgba(84,123,130,1) 51%, rgba(58,148,115,1) 100%);
+background: linear-gradient(to bottom, rgba(89,79,79,1) 0%, rgba(89,79,79,1) 9%, rgba(84,123,130,1) 51%, rgba(58,148,115,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#594f4f', endColorstr='#3a9473', GradientType=0 );;
   font-family: 'Walter Turncoat', cursive;
 }
 
