@@ -6,40 +6,178 @@
   <link rel="icon" type="image/png" href="assets/img/Marca_de_los_Homunculos.png" sizes="32x32">
   <title>Portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 
-  <nav class="navbar navbar-default navbar-static-top"><!--navbar-->
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#home" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-    </div>
-
-    <div class="collapse navbar-collapse navbar-right" id="home">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="$">Works</a></li>
-        <li><a href="#">Contact (?)</a></li>
+  <!--navbar-->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Josefina</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Home</a></li>
+        <li><a href="badges.html">About</a></li>
+        <li><a href="collapsible.html">Skills</a></li>
+        <li><a href="mobile.html">Works</a></li>
       </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="sass.html">Home</a></li>
+        <li><a href="badges.html">About</a></li>
+        <li><a href="collapsible.html">Skills</a></li>
+        <li><a href="mobile.html">Works</a></li>
+       </ul>
     </div>
-  </nav><!--fin navbar-->
+  </nav>
+  <!-- ./navbar-->
 
   <section id="welcome">
     
   </section>
 
+  <section id="about">
+    <div class="row">
+      <div class="col l4">
+        <div class="oval-half-red"></div>
+      </div>
+      <div class="col l8">
+        <h3>Sobre mí</h3>
+        <p>Soy Josefina León, tengo 21 años y vivo en Santiago, Chile. Soy estudiante en <em>Laboratoria</em> y <em>Front-End Developer Junior</em>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="row">
+      <div class="col l12">
+        <h3>Skills</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col l8">
+        <i class="devicon-javascript-plain colored"></i>
+        <i class="devicon-jquery-plain-wordmark colored"></i>
+        <i class="devicon-bootstrap-plain colored"></i>
+        <i class="devicon-css3-plain-wordmark colored"></i>
+        <i class="devicon-git-plain colored"></i>
+        <i class="devicon-html5-plain-wordmark colored"></i>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="works">
+    <div class="row">
+      <h3>Projects</h3>
+    </div>
+    <div class="row">
+      <div class="col s12 m4 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/img/render_de_freezer.png">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/img/render_de_freezer.png">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/img/render_de_freezer.png">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m4 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/img/render_de_freezer.png">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/img/render_de_freezer.png">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/img/render_de_freezer.png">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="row">
+      <h3>Contactame</h3>
+      <i class="devicon-github-plain-wordmark colored"></i>
+    </div>
+  </section>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
