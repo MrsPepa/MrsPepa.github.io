@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" type="image/png" href="assets/img/Marca_de_los_Homunculos.png" sizes="32x32">
   <title>Portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
@@ -14,31 +15,39 @@
 <body>
 
   <!--navbar-->
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo">Josefina</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html">Home</a></li>
-        <li><a href="badges.html">About</a></li>
-        <li><a href="collapsible.html">Skills</a></li>
-        <li><a href="mobile.html">Works</a></li>
-      </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">Home</a></li>
-        <li><a href="badges.html">About</a></li>
-        <li><a href="collapsible.html">Skills</a></li>
-        <li><a href="mobile.html">Works</a></li>
-       </ul>
-    </div>
-  </nav>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Josefina</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">Menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#welcome">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="#welcome">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+           </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
   <!-- ./navbar-->
 
-  <section id="welcome">
-    
+  <section id="welcome" class="section scrollspy">
+    <div id="messenger">
+      
+    </div>
   </section>
 
-  <section id="about">
+  <section id="about" class="section scrollspy">
     <div class="row">
       <div class="col l4">
         <div class="oval-half-red"></div>
@@ -50,7 +59,7 @@
     </div>
   </section>
 
-  <section id="skills">
+  <section id="skills" class="section scrollspy">
     <div class="row">
       <div class="col l12">
         <h3>Skills</h3>
@@ -69,112 +78,122 @@
     </div>
   </section>
 
-  <section id="works">
-    <div class="row">
-      <h3>Projects</h3>
-    </div>
-    <div class="row">
-      <div class="col s12 m4 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="assets/img/render_de_freezer.png">
-            <span class="card-title">Card Title</span>
+  <section id="works" class="section scrollspy">
+    <div class="container">
+      <div class="row">
+        <h3>Projects</h3>
+      </div>
+      <div class="row">
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/img/render_de_freezer.png">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
           </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/img/render_de_freezer.png">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
           </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
+        </div>
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/img/render_de_freezer.png">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col s12 m4 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="assets/img/render_de_freezer.png">
-            <span class="card-title">Card Title</span>
-          </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m4 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="assets/img/render_de_freezer.png">
-            <span class="card-title">Card Title</span>
-          </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
+      <div class="row">
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/img/render_de_freezer.png">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s12 m4 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="assets/img/render_de_freezer.png">
-            <span class="card-title">Card Title</span>
-          </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/img/render_de_freezer.png">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col s12 m4 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="assets/img/render_de_freezer.png">
-            <span class="card-title">Card Title</span>
-          </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m4 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="assets/img/render_de_freezer.png">
-            <span class="card-title">Card Title</span>
-          </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/img/render_de_freezer.png">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="section scrollspy">
     <div class="row">
       <h3>Contactame</h3>
       <i class="devicon-github-plain-wordmark colored"></i>
     </div>
   </section>
+
+    <!--footer-->
+  <footer>
+    <div class="container center-align">
+      <h5>Desarrollado por Josefina León | Laboratoria 2018</h5>
+    </div>
+  </footer>
+  <!--fin footer-->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
