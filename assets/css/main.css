@@ -6,6 +6,14 @@
 }
 body {
   font-family: 'Walter Turncoat', cursive;
+  background: rgba(77,87,87,1);
+  background: -moz-linear-gradient(top, rgba(77,87,87,1) 0%, rgba(77,84,87,1) 16%, rgba(84,123,130,1) 54%, rgba(58,148,115,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(77,87,87,1)), color-stop(16%, rgba(77,84,87,1)), color-stop(54%, rgba(84,123,130,1)), color-stop(100%, rgba(58,148,115,1)));
+  background: -webkit-linear-gradient(top, rgba(77,87,87,1) 0%, rgba(77,84,87,1) 16%, rgba(84,123,130,1) 54%, rgba(58,148,115,1) 100%);
+  background: -o-linear-gradient(top, rgba(77,87,87,1) 0%, rgba(77,84,87,1) 16%, rgba(84,123,130,1) 54%, rgba(58,148,115,1) 100%);
+  background: -ms-linear-gradient(top, rgba(77,87,87,1) 0%, rgba(77,84,87,1) 16%, rgba(84,123,130,1) 54%, rgba(58,148,115,1) 100%);
+  background: linear-gradient(to bottom, rgba(77,87,87,1) 0%, rgba(77,84,87,1) 16%, rgba(84,123,130,1) 54%, rgba(58,148,115,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d5757', endColorstr='#3a9473', GradientType=0 );
 }
 
 /*Navbar*/
@@ -19,6 +27,7 @@ nav {
 }
 
 /*Seccion home*/
+
 #welcome{
   width: 100%;
   height: 100vh;
@@ -26,30 +35,6 @@ nav {
   background-image: url(../img/tumblr_nm6j1ghB7C1qze3hdo1_500.gif);
   background-repeat: no-repeat;
   background-size: cover;
-
-}
-body {
-  background: rgba(77,87,87,1);
-background: -moz-linear-gradient(top, rgba(77,87,87,1) 0%, rgba(77,84,87,1) 16%, rgba(84,123,130,1) 54%, rgba(58,148,115,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(77,87,87,1)), color-stop(16%, rgba(77,84,87,1)), color-stop(54%, rgba(84,123,130,1)), color-stop(100%, rgba(58,148,115,1)));
-background: -webkit-linear-gradient(top, rgba(77,87,87,1) 0%, rgba(77,84,87,1) 16%, rgba(84,123,130,1) 54%, rgba(58,148,115,1) 100%);
-background: -o-linear-gradient(top, rgba(77,87,87,1) 0%, rgba(77,84,87,1) 16%, rgba(84,123,130,1) 54%, rgba(58,148,115,1) 100%);
-background: -ms-linear-gradient(top, rgba(77,87,87,1) 0%, rgba(77,84,87,1) 16%, rgba(84,123,130,1) 54%, rgba(58,148,115,1) 100%);
-background: linear-gradient(to bottom, rgba(77,87,87,1) 0%, rgba(77,84,87,1) 16%, rgba(84,123,130,1) 54%, rgba(58,148,115,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d5757', endColorstr='#3a9473', GradientType=0 );
-}
-#about {
-background-color: transparent;
-width: 100%;
-height: 600px;
-outline: 2px solid black;
-font-size: 22px;
-}
-i {
-  font-size: 9em;
-}
-.card-image {
-  width: 16em;
 }
 
 #messenger {
@@ -58,12 +43,21 @@ i {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /*font-family: monospace;*/
   font-size: 55px;
   font-weight: bolder;
   white-space: nowrap;
   text-shadow: 0 2px 2px rgba(#000, 0.9);
 }
+
+/*Seccion about*/
+#about {
+background-color: transparent;
+width: 100%;
+height: 600px;
+outline: 2px solid black;
+font-size: 22px;
+}
+
 .oval-half-red {
   width: 310px;
   height: 250px;
@@ -77,7 +71,28 @@ i {
   background-repeat: no-repeat;
   border: 3px solid #555;
 }
-strong { font-weight: 500; }
+
+.logo {
+  width: 14em;
+}
+
+i {
+  font-size: 9em;
+}
+.card-image {
+  width: 16em;
+}
+/*medias query*/
+@media (max-width: 750px) {
+  #messenger {
+    font-size: 27px;
+  }
+  .logo {
+    width: 13em;
+  }
+}
+
+
 /*PALETA DE COLOR*/
 #594f4f;
 #547b82;

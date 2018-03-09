@@ -14,9 +14,9 @@ var Messenger = function(el){
     m.fadeBuffer = false;
     m.messages = [
       'Love Japanesse culture',
-      'This could be another message.',
+      'Love Video Games',
       'Love the Code',
-      'Cool.'
+      'Love AVocado'
     ];
     
     setTimeout(m.animateIn, 100);
