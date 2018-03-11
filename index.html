@@ -17,7 +17,7 @@
   <!--navbar-->
   <div class="navbar-fixed">
     <nav>
-      <div class="container">
+      <div class="">
         <div class="nav-wrapper">
           <img class="responsive-img logo" src="assets/img/logo/logo-tree-2.0.png">
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -28,17 +28,18 @@
             <li><a href="#works">Works</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <ul class="side-nav" id="mobile-demo">
-            <li><a href="#welcome">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#works">Works</a></li>
-            <li><a href="#contact">Contact</a></li>
-           </ul>
+          
         </div>
       </div>
     </nav>
   </div>
+  <ul class="side-nav" id="mobile-demo">
+    <li><a href="#welcome">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#works">Works</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
   <!-- fin navbar-->
 
   <!-- inicio welcome-->
@@ -52,10 +53,10 @@
   <!--inicio about-->
   <section id="about" class="section scrollspy">
     <div class="row">
-      <div class="col l4">
-        <div class="oval-half-red"></div>
+      <div class="col s12 m6 l4">
+        <div class="portrait"></div>
       </div>
-      <div class="col l8">
+      <div class="col s12 m6 l5 offset-l1">
         <h3>Sobre mí</h3>
         <p>Soy Josefina León, tengo 21 años y vivo en Santiago, Chile. Soy estudiante en <em>Laboratoria</em> y <em>Front-End Developer Junior</em>.</p>
       </div>
@@ -66,20 +67,30 @@
   <!--inicio skills-->
   <section id="skills" class="section scrollspy">
     <div class="row">
-      <div class="col l12">
+      <div class="col s12 l12">
         <h3>Skills</h3>
       </div>
     </div>
     <div class="row">
-      <div class="col l8">
+      <div class="col s4 m2 l2">
         <i class="devicon-html5-plain-wordmark html5"></i>
+      </div>
+      <div class="col s4 m2 l2">
         <i class="devicon-css3-plain-wordmark css3"></i>
-        <i class="devicon-git-plain git"></i>
-        <i class="devicon-javascript-plain js"></i>
+      </div>
+      <div class="col s4 m2 l2">
         <i class="devicon-jquery-plain-wordmark jq"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s4 m2 l2">
+        <i class="devicon-javascript-plain js"></i>
+      </div>
+      <div class="col s4 m2 l2">
+        <i class="devicon-git-plain git"></i>
+      </div>
+      <div class="col s4 m2 l2">
         <i class="devicon-bootstrap-plain boot"></i>
-        
-        
       </div>
     </div>
   </section>
@@ -97,14 +108,13 @@
           <div class="card">
             <div class="card-image">
               <img src="assets/img/render_de_freezer.png">
-              <span class="card-title">Card Title</span>
+              <span class="card-title">Pokedex</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+              <p>Pokedex usando pokeapi</p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="https://mrspepa.github.io/Pokedex/">View</a>
             </div>
           </div>
         </div>
@@ -112,29 +122,27 @@
           <div class="card">
             <div class="card-image">
               <img src="assets/img/render_de_freezer.png">
-              <span class="card-title">Card Title</span>
+              <span class="card-title">Insta Collage</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+              <p>Drag and drop</p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="https://mrspepa.github.io/insta-collage/">View</a>
             </div>
           </div>
         </div>
         <div class="col s12 m4 l4">
           <div class="card">
             <div class="card-image">
-              <img src="assets/img/render_de_freezer.png">
-              <span class="card-title">Card Title</span>
+              <img src="assets/img/easy-vreco_.png">
+              <span class="card-title">Easy-vreco</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+              <p>Geolocation api</p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="https://mrspepa.github.io/easy-vreco/">View</a>
             </div>
           </div>
         </div>
@@ -145,14 +153,13 @@
           <div class="card">
             <div class="card-image">
               <img src="assets/img/render_de_freezer.png">
-              <span class="card-title">Card Title</span>
+              <span class="card-title">PhotoFilter</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+              <p>Libreria con test en mocha</p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="https://github.com/MrsPepa/PhotoFilter">View</a>
             </div>
           </div>
         </div>
@@ -195,7 +202,17 @@
   <section id="contact" class="section scrollspy">
     <div class="row">
       <h3>Contactame</h3>
-      <i class="devicon-github-plain-wordmark colored"></i>
+    </div>
+    <div class="row">
+      <div class="col s4 m4 l4 icontact">
+        <a href="https://www.linkedin.com/in/josefina-le%C3%B3n/"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="col s4 m4 l4">
+        <a href="https://github.com/MrsPepa"><i class="devicon-github-plain-wordmark colored"></i></a>
+      </div>
+      <div class="col s4 m4 l4 icontact">
+        <a href="mailto:jose.leon1996@gmail.com"><i class="far fa-envelope"></i></a>
+      </div>
     </div>
   </section>
   <!--fin contact-->
@@ -203,7 +220,7 @@
     <!--footer-->
   <footer>
     <div class="container center-align">
-      <h5>Desarrollado por Josefina León | Laboratoria 2018</h5>
+      <h5>Desarrollado por Josefina León | Laboratoria <span id="año"></span></h5>
     </div>
   </footer>
   <!--fin footer-->
@@ -211,5 +228,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </body>
 </html>

@@ -96,3 +96,8 @@ var Messenger = function(el){
 
 console.clear();
 var messenger = new Messenger($('#messenger'));
+
+var año = document.getElementById('año');
+copyright = new Date();
+obtener = copyright.getFullYear();
+año.innerHTML = obtener;
