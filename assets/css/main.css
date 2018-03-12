@@ -127,6 +127,13 @@ a {
     width: 13em;
     margin-right: -2em;
   }
+  .portrait {
+    width: 13.5em;
+    height: 13.5em;
+  }
+  i {
+    font-size: 6em;
+  }
 }
 
 
@@ -142,3 +149,4 @@ a {
 #ffa500;
 #132b3d;
 #4d5757;
+

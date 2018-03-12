@@ -16,7 +16,7 @@ var Messenger = function(el){
       'Love Japanesse culture',
       'Love Video Games',
       'Love the Code',
-      'Love AVocado'
+      'Love Avocado'
     ];
     
     setTimeout(m.animateIn, 100);
@@ -101,3 +101,4 @@ var año = document.getElementById('año');
 copyright = new Date();
 obtener = copyright.getFullYear();
 año.innerHTML = obtener;
+
