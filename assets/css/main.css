@@ -97,27 +97,36 @@ a {
 }
 
 .html5:hover {
-  color: #F23600;
+  cursor: pointer;
 }
 .css3:hover {
-  color: #4680CD;
+  cursor: pointer;
 }
 .jq:hover {
-  color: #1A58AE;
+  cursor: pointer;
 }
 .js:hover {
-  color: #EBE83A;
+  cursor: pointer;
 }
 .git:hover {
-  color: #FF3200;
+  cursor: pointer;
 }
 .boot:hover {
-  color: #7E4597;
+  cursor: pointer;
 }
 
-.card-image {
-  width: 16em;
+/*seccion contacto*/
+.link,
+.email {
+  color: #1E1C1C;
 }
+
+hr {
+  height: 28px;
+  background: url(../img/sakura/prueba.png) repeat center;
+  border: none;
+}
+
 /*medias query*/
 @media (max-width: 750px) {
   #messenger {
