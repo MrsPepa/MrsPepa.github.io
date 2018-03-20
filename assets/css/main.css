@@ -6,18 +6,9 @@
 }
 body {
   font-family: 'Walter Turncoat', cursive;
-  background: rgba(77,87,87,1);
-  background: -moz-linear-gradient(top, rgba(77,87,87,1) 0%, rgba(77,84,87,1) 16%, rgba(84,123,130,1) 54%, rgba(58,148,115,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(77,87,87,1)), color-stop(16%, rgba(77,84,87,1)), color-stop(54%, rgba(84,123,130,1)), color-stop(100%, rgba(58,148,115,1)));
-  background: -webkit-linear-gradient(top, rgba(77,87,87,1) 0%, rgba(77,84,87,1) 16%, rgba(84,123,130,1) 54%, rgba(58,148,115,1) 100%);
-  background: -o-linear-gradient(top, rgba(77,87,87,1) 0%, rgba(77,84,87,1) 16%, rgba(84,123,130,1) 54%, rgba(58,148,115,1) 100%);
-  background: -ms-linear-gradient(top, rgba(77,87,87,1) 0%, rgba(77,84,87,1) 16%, rgba(84,123,130,1) 54%, rgba(58,148,115,1) 100%);
-  background: linear-gradient(to bottom, rgba(77,87,87,1) 0%, rgba(77,84,87,1) 16%, rgba(84,123,130,1) 54%, rgba(58,148,115,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d5757', endColorstr='#3a9473', GradientType=0 );
 }
-h3 {
-  color: #9ce4ac;
-  text-shadow: 5px 5px 5px #132b3d;
+.card .card-image .card-title {
+  color: #594f4f;
 }
 
 /*Navbar*/
@@ -61,11 +52,10 @@ nav li a {
 
 /*Seccion about*/
 #about {
-background-color: transparent;
+background-color: #367371;
 width: 100%;
-height: auto;
+height: 100vh;
 font-size: 22px;
-margin-top: 5em;
 }
 
 .portrait {
@@ -82,8 +72,20 @@ margin-top: 5em;
   background-repeat: no-repeat;
   border: none;
 }
+.t1 {
+  color: #9ce4ac;
+  font-weight: bolder;
+}
 
 /*seccion skills*/
+#skills {
+  height: auto;
+  background-color: #9ce4ac;
+}
+.t2 {
+  color: #367371;
+  font-weight: bolder;
+}
 i {
   font-size: 9em;
   color: #3a9473;
@@ -115,17 +117,43 @@ a {
   cursor: pointer;
 }
 
+/*seccion works*/
+#works {
+  height: auto;
+  background-color: #367371;
+}
+.t3 {
+  color: #9ce4ac;
+  font-weight: bolder;
+}
+
 /*seccion contacto*/
+#contact {
+  background-color: #9ce4ac;
+}
+.t4 {
+  color: #367371;
+  font-weight: bolder;
+}
 .link,
 .email {
   color: #1E1C1C;
 }
 
-hr {
+/*footer*/
+footer {
+  background-color: #9ce4ac;
+}
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*hr {
   height: 28px;
   background: url(../img/sakura/prueba.png) repeat center;
   border: none;
-}
+}*/
 
 /*medias query*/
 @media (max-width: 750px) {
@@ -140,8 +168,14 @@ hr {
     width: 13.5em;
     height: 13.5em;
   }
+  .icons {
+    margin-bottom: 3em;
+  }
   i {
     font-size: 6em;
+  }
+  h5 {
+    font-size: 19px;
   }
 }
 

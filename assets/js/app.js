@@ -16,7 +16,8 @@ var Messenger = function(el){
       'Love Japanesse culture',
       'Love Video Games',
       'Love the Code',
-      'Love Avocado'
+      'Love Avocado',
+      'Love Manga'
     ];
     
     setTimeout(m.animateIn, 100);
