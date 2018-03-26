@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Walter Turncoat', cursive;
+  font-family: 'Tenor Sans', sans-serif;
   background-color: #00897B;
 }
 
@@ -27,6 +27,22 @@ nav li a:hover{
 .logo {
   width: 14em;
   margin-right: 21em;
+}
+
+/*boton ir arriba*/
+.ir-arriba {
+  display: none;
+  padding: 20px;
+  background: #80CBC4;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #00897B;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10000;
+  border-radius: 50%;
 }
 
 /*Seccion home*/
@@ -73,11 +89,13 @@ text-align: center;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  margin-left: 1em;
+  margin-left: 2.5em;
+  margin-top: 3em;
 }
 .t1 {
   color: #00897B;
-  font-weight: bolder;
+  font-weight: bold;
+  font-family: 'Coming Soon', cursive;
 }
 .sobreMi {
   margin-left: 14em;
@@ -91,6 +109,7 @@ text-align: center;
 .t2 {
   color: #FFF3E0;
   font-weight: bolder;
+  font-family: 'Coming Soon', cursive;
 }
 i {
   font-size: 9em;
@@ -131,6 +150,7 @@ a {
 .t3 {
   color: #00897B;
   font-weight: bolder;
+  font-family: 'Coming Soon', cursive;
 }
 .card .card-image .card-title {
   color: #00897B;
@@ -143,6 +163,7 @@ a {
 .t4 {
   color: #FFF3E0;
   font-weight: bolder;
+  font-family: 'Coming Soon', cursive;
 }
 .link,
 .email,
@@ -174,7 +195,7 @@ h5 {
   .portrait {
     width: 12.5em;
     height: 12.5em;
-    
+    margin: 12px;
   }
   .icons {
     margin-bottom: 3em;
@@ -186,7 +207,6 @@ h5 {
     font-size: 19px;
   }
 }
-
 
 /*PALETA DE COLOR*/
 #eeefe2;
