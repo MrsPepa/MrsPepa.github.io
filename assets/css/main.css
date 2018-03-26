@@ -6,6 +6,7 @@
 }
 body {
   font-family: 'Walter Turncoat', cursive;
+  background-color: #00897B;
 }
 .card .card-image .card-title {
   color: #594f4f;
@@ -15,12 +16,15 @@ body {
 nav {
   margin: 0;
   border: none;
-  background-color: #594f4f;
+  background-color: #00897B;
   z-index: 1000;
   align-content: center;
 }
 nav li a {
-  color: #9ce4ac;
+  color: #FFF3E0;
+}
+nav li a:hover{
+  color: #80CBC4;
 }
 .logo {
   width: 14em;
@@ -32,13 +36,14 @@ nav li a {
 #welcome{
   width: 100%;
   height: 100vh;
-  background-color: #594f4f;
-  background-image: url(../img/tumblr_nm6j1ghB7C1qze3hdo1_500.gif);
+  background-color: ;
+  background-image: url(../img/tumblr_occujlvMQE1qze3hdo1_r2_500.gif);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #messenger {
+  color: #FFF3E0;
   font-family: 'Coming Soon', cursive;
   position: absolute;
   top: 50%;
@@ -52,43 +57,46 @@ nav li a {
 
 /*Seccion about*/
 #about {
-background-color: #367371;
+background-color: #FFF3E0;
 width: 100%;
 height: 100vh;
 font-size: 22px;
+text-align: center;
 }
 
 .portrait {
-  display: flex;
-  justify-content: center;
+  border: 4px solid #00897B;
   width: 14em;
   height: 14em;
   -moz-border-radius: 30%;
   -webkit-border-radius: 30%;
-  border-radius: 30%;
+  border-radius: 50%;
   background-image: url(../img/1514259840126s.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  border: none;
+  margin-left: 1em;
 }
 .t1 {
-  color: #9ce4ac;
+  color: #00897B;
   font-weight: bolder;
+}
+.sobreMi {
+  margin-left: 14em;
 }
 
 /*seccion skills*/
 #skills {
   height: auto;
-  background-color: #9ce4ac;
+  background-color: #00897B;
 }
 .t2 {
-  color: #367371;
+  color: #FFF3E0;
   font-weight: bolder;
 }
 i {
   font-size: 9em;
-  color: #3a9473;
+  color: #80CBC4;
 }
 a {
   color: #000;
@@ -120,19 +128,19 @@ a {
 /*seccion works*/
 #works {
   height: auto;
-  background-color: #367371;
+  background-color: #FFF3E0;
 }
 .t3 {
-  color: #9ce4ac;
+  color: #00897B;
   font-weight: bolder;
 }
 
 /*seccion contacto*/
 #contact {
-  background-color: #9ce4ac;
+  background-color: #00897B;
 }
 .t4 {
-  color: #367371;
+  color: #FFF3E0;
   font-weight: bolder;
 }
 .link,
@@ -142,7 +150,7 @@ a {
 
 /*footer*/
 footer {
-  background-color: #9ce4ac;
+  background-color: #00897B;
 }
 h5 {
   margin-top: 0;
@@ -181,21 +189,17 @@ h5 {
 
 
 /*PALETA DE COLOR*/
-#594f4f;
-#547b82;
-#44acac;
-#9ce4ac;
-#3a9473;
-#367371;
-#73364b;
-#9e3e3f;
-#ffa500;
-#132b3d;
-#4d5757;
+#eeefe2;
+#306f8e;
+#ebced7;
+#b3d0e1;
+#cbdce1;
+#6d98bf;
+#a2a6c1;
+#e6b5cb;
+#c7b2ca;
 
-#F3C299;
-#CCBD96;
-#A6B491;
-#3E5E5D;
-#E7605A;
 
+#00897B;
+#FFF3E0;
+#80CBC4;
