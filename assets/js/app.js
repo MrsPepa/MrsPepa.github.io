@@ -1,4 +1,5 @@
 $( document ).ready(function(){
+    AOS.init();
     $(".button-collapse").sideNav();
     $('.scrollspy').scrollSpy();
 })
