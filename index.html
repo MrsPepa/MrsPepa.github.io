@@ -10,6 +10,8 @@
   <!--AOS styles and scripts-->
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <!--animate.css-->
+  <link rel="stylesheet" type="text/css" href="assets/animate/animate.css">
   <!--links-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -117,73 +119,48 @@
 
   <!--inicio works-->
   <section id="works" class="section scrollspy">
-    <div class="container">
-      <div class="row">
-        <h3 class="t3">Projects</h3>
-      </div>
-
-      <div class="row">
-        <div class="col s12 m6 l6">
-          <div class="card">
-            <div class="card-image">
-              <img class="responsive-img" src="assets/img/Pokedex.png">
-              <span class="card-title">Pokedex</span>
-            </div>
-            <div class="card-content">
-              <p>Pokedex usando pokeapi</p>
-            </div>
-            <div class="card-action">
-              <a target="_blank" href="https://mrspepa.github.io/Pokedex/">View</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m6 l6">
-          <div class="card">
-            <div class="card-image">
-              <img class="responsive-img" src="assets/img/insta-collage_collage.html.png">
-              <span class="card-title">Insta Collage</span>
-            </div>
-            <div class="card-content">
-              <p>Drag and drop</p>
-            </div>
-            <div class="card-action">
-              <a target="_blank" href="https://mrspepa.github.io/insta-collage/">View</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col s12 m6 l6">
-          <div class="card">
-            <div class="card-image">
-              <img class="responsive-img" src="assets/img/Photofilter.png">
-              <span class="card-title">PhotoFilter</span>
-            </div>
-            <div class="card-content">
-              <p>Libreria con test en mocha</p>
-            </div>
-            <div class="card-action">
-              <a target="_blank" href="https://mrspepa.github.io/PhotoFilter/">View</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m6 l6">
-          <div class="card">
-            <div class="card-image">
-              <img class="responsive-img" src="assets/img/easy-vreco_.png">
-              <span class="card-title">Easy-vreco</span>
-            </div>
-            <div class="card-content">
-              <p>Geolocation api</p>
-            </div>
-            <div class="card-action">
-              <a target="_blank" href="https://mrspepa.github.io/easy-vreco/">View</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <ul class="grid cs-style-6">
+        <li>
+          <figure>
+            <img src="assets/img/Pokedex.png" alt="img01">
+            <figcaption>
+              <h3>Pokedex</h3>
+              <span>Usando api de pokemon</span>
+              <a href="#">Take a look</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="assets/img/Photofilter.png" alt="img03">
+            <figcaption>
+              <h3>Photofilter</h3>
+              <span>Jacob Cummings</span>
+              <a href="#">Take a look</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="assets/img/insta-collage_collage.html.png" alt="img04">
+            <figcaption>
+              <h3>Insta-collage</h3>
+              <span>Jacob Cummings</span>
+              <a href="#">Take a look</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="assets/img/easy-vreco_.png" alt="img02">
+            <figcaption>
+              <h3>Geolocation</h3>
+              <span>Jacob Cummings</span>
+              <a href="#">Take a look</a>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
   </section>
   <!--fin works-->
 
@@ -218,5 +195,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <script type="text/javascript" src="assets/animate/toucheffects.js"></script>
+  <script type="text/javascript" src="assets/animate/modernizr.custom.js"></script>
 </body>
 </html>
