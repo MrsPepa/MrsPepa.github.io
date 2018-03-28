@@ -243,14 +243,15 @@ h5 {
   top: 0;
   left: 0;
   padding: 0;
-  background: #343642;
-  color: #FFF;
+  background: #80CBC4;
+  color: #FFF3E0;
 }
 
 .grid figcaption h3 {
   margin: 0;
   padding: 0;
-  color: #00B8C8;
+  color: #00897B;
+  font-weight: bolder;
 }
 /*
 .grid figcaption span:before {
@@ -262,8 +263,8 @@ h5 {
   padding: 5px 10px;
   border-radius: 2px;
   display: inline-block;
-  background: #00B8C8;
-  color: #fff;
+  background: #FFF3E0;
+  color: #00897B;
 }
 
 /* Caption Style 6 */
