@@ -206,6 +206,9 @@ h5 {
   h5 {
     font-size: 19px;
   }
+  .grid li {
+    max-width: 100%;
+  }
 }
 
 /* CaptionHoverEffects CSS */
@@ -300,6 +303,8 @@ h5 {
 
 
 /* -- CaptionHoverEffects CSS -- */
+
+
 
 /*PALETA DE COLOR*/
 #eeefe2;
