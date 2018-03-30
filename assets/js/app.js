@@ -117,3 +117,10 @@ copyright = new Date();
 obtener = copyright.getFullYear();
 año.innerHTML = obtener;
 
+$(".icons").hover(function (e) {
+    $(this).addClass('animated swing');
+});
+
+$(".icons").bind("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function () {
+    $(this).removeClass('animated swing');
+});
