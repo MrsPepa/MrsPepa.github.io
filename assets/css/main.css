@@ -136,6 +136,9 @@ a {
 .boot:hover {
   cursor: pointer;
 }
+#skills span {
+  color: #FFF3E0;
+}
 
 /*seccion works*/
 #works {
@@ -164,6 +167,16 @@ a {
 .email,
 .github {
   color: #80CBC4;
+}
+.link:hover,
+.email:hover {
+  font-size: 1.4em;
+}
+.github {
+  font-size: 6em;
+}
+.github:hover {
+  font-size: 7em;
 }
 
 /*footer*/
