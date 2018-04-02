@@ -6,7 +6,7 @@
 }
 body {
   font-family: 'Corben', cursive;
-  background-color: #00897B;
+  background-color: #FFF3E0;
 }
 
 
@@ -157,6 +157,7 @@ a {
 /*seccion contacto*/
 #contact {
   background-color: #00897B;
+  height: 40vh;
 }
 .t4 {
   color: #FFF3E0;
@@ -181,12 +182,14 @@ a {
 
 /*footer*/
 footer {
-  background-color: #00897B;
-  color: #FFF3E0;
+  background-color: #FFF3E0;
+  color: #00897B;
+  height: 7vh;
 }
 h5 {
   margin-top: 0;
   margin-bottom: 0;
+  margin-top: 1.4em;
 }
 
 
